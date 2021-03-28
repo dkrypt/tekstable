@@ -1,0 +1,21 @@
+{
+  "name": "tekstable",
+  "version": "1.0.0",
+  "description": "A simple library to print data in Table format using ASCII characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/tekstable.js"
+  },
+  "keywords": [
+    "text",
+    "table",
+    "ascii",
+    "textable",
+    "format"
+  ],
+  "author": "dkrypt",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^14.11.0"
+  }
+}
