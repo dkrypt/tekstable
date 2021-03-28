@@ -13,6 +13,11 @@
     "textable",
     "format"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dkrypt/tekstable.git"
+  },
+  "homepage": "https://github.com/dkrypt/tekstable",
   "author": "dkrypt",
   "license": "ISC",
   "devDependencies": {
