@@ -17,6 +17,15 @@ const tableData = [
 
 console.log(tekstable(tableData));
 ```
+Output:
+```
++-------+---------+-------------+-------+
+|  No.  |  Name   |  Address    |  Age  |
++-------+---------+-------------+-------+
+|  1    |  Alice  |  Michigan   |  22   |
+|  2    |  Bob    |  Bengaluru  |  23   |
++-------+---------+-------------+-------+
+```
 
 ### Example with custom options
 
@@ -30,6 +39,15 @@ const tableData = [
 
 console.log(tekstable(tableData, { spacing: 3, isHeader: true}));
 ```
+Output:
+```
++---------+-----------+---------------+---------+
+|   No.   |   Name    |   Address     |   Age   |
++---------+-----------+---------------+---------+
+|   1     |   Alice   |   Michigan    |   22    |
+|   2     |   Bob     |   Bengaluru   |   23    |
++---------+-----------+---------------+---------+
+```
 
 ### Example without header
 
@@ -41,4 +59,11 @@ const tableData = [
 ];
 
 console.log(tekstable(tableData, { spacing: 1, isHeader: false}));
+```
+Output:
+```
++---+-------+-----------+----+
+| 1 | Alice | Michigan  | 22 |
+| 2 | Bob   | Bengaluru | 23 |
++---+-------+-----------+----+
 ```
